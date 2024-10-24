@@ -1,0 +1,90 @@
+/* Overview.css */
+
+.overview-container {
+    padding: 20px;
+    background-color: #4CA1AF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .overview-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .project-overview {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #5a6fd6;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.2s;
+  }
+  
+  .project-overview:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-title {
+    font-size: 20px;
+    color: #0056b3;
+    margin-bottom: 10px;
+  }
+  
+  .task-list {
+    margin-top: 15px;
+    padding-left: 15px;
+    border-left: 3px solid #0056b3;
+  }
+  
+  .list-title {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .task-overview {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+  }
+  
+  .task-overview:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .task-name {
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .task-description {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .task-deadline,
+  .task-priority {
+    font-size: 14px;
+    color: #888;
+    margin-top: 5px;
+  }
+  
+  .no-projects,
+  .no-tasks {
+    font-style: italic;
+    color: #999;
+    text-align: center;
+  }
+  
